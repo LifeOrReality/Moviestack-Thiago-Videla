@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.tarjetas {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    justify-items: center;
+    color: white;
+}
+
+.miniTarjeta {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    padding: 16px;
+    text-align: center;
+    background-color: white;
+    width: 220px;             
+    box-sizing: border-box;
+
+}
+
+.miniTarjeta img {
+    width: 180px;
+    height: 180px;
+    object-fit: contain;
+    border-radius: 8px;
+}
+
+.miniTarjeta h2 {
+/*   margin-top: 10px; */
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: black;
+}
+
+.miniTarjeta h3 {
+    color: black;
+/*     margin-top: 10px; */
+    font-size: 0.6rem;
+    font-weight: bold;
+}
+
+.miniTarjeta p {
+    margin-top: 8px;
+    font-size: 0.95rem;
+    color: #555;
+    width: 200px;           
+    white-space: nowrap;     
+    overflow: hidden;        
+    text-overflow: ellipsis; 
+}
+
+
+.recuadro_nav .seleccionado {
+    border: 2px solid white;    
+    border-radius: 75px;
+    padding: 6px 16px;             
+    background-color: transparent;
+    box-shadow: 0 0 10px rgba(255,255,255,0.7);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6);
+    animation: cssAnimation_0 1s infinite alternate ease-in-out;
+}
+
+@keyframes cssAnimation_0 {
+    from {
+        box-shadow: 0 0 10px rgba(255,255,255,0.6);
+    }
+    to {
+        box-shadow: 0 0 25px rgba(255,255,255,1);
+    }
+}
+
+h1{
+    border: 2px solid white;    
+    border-radius: 75px;
+    padding: 6px 16px;             
+    background-color: transparent;
+    box-shadow: 0 0 10px rgba(255,255,255,0.7);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6);
+    animation: cssAnimation_0 1s infinite alternate ease-in-out;
+}
+
+@keyframes cssAnimation_0 {
+    from {
+        box-shadow: 0 0 10px rgba(255,255,255,0.6);
+    }
+    to {
+        box-shadow: 0 0 25px rgba(255,255,255,1);
+    }
+}

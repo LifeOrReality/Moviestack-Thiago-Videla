@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resumando ando, tu pagina preferida de reseñas de peliculas</title>
+    <link href="./assets/styles/style.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+<div class="flex flex-col min-h-screen">
+  <header>
+    <div class="bg-black flex flex-wrap md:flex-nowrap items-center justify-between px-6 py-4 pr-8">
+      <div class="flex items-center gap-3">
+        <img src="./assets/images/Moviestack_favicon.png" class="h-12 w-auto" alt="iconoPrincipal">
+        <h1 class="text-2xl font-bold text-white">MOVIESTACK</h1>
+      </div>
+      <nav class="flex flex-wrap justify-center items-center gap-4 p-4 recuadro_nav">
+        <a href="#" class="text-white px-6 py-2 seleccionado ">HOME</a>
+        <a href="movies.html" class="text-white px-6 py-2">MOVIES</a>
+        <a href="#" class="text-white px-6 py-2 mr-6">FAV</a>
+      </nav>
+    </div>
+    </header>
+
+    <main class="grow bg-black">    
+        <div>
+            <img src="./assets/images/banner.png" class="w-full h-[30vh] object-cover" alt="banner">
+        </div>
+        <p class="text-white w-full h-full text-2xl">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore cumque nulla inventore officiis aliquid consequuntur veniam autem quam a accusamus itaque, atque cum hic officia voluptas laudantium aliquam praesentium sapiente!</p>
+        <div class="flex justify-center gap-2">
+            <a href="movies.html">
+                <img src="./assets/images/banner_MOVIES.PNG" class="object-contain w-[40vw] h-[25vh]" alt="banner">
+            </a>
+            <a href="#">
+                <img src="./assets/images/banner_FAVS.png" class="object-contain w-[40vw] h-[25vh]" alt="banner">
+            </a>
+        </div>
+    </main>
+
+    <footer>
+        <div class="bg-black via-neutral-900 to-zinc-900 text-center p-6 flex flex-row justify-center w-full h-[15vh] ">
+            <p class="text-3xl font-bold text-white">MindHub - Cohort N</p>
+        </div>
+    </footer>
+</div>
+
+</body>
+</html>

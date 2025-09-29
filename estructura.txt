@@ -1,0 +1,30 @@
+https://docs.google.com/presentation/d/e/2PACX-1vSefdHz00E913Ogy40_ATphoJpOGl7FhXBHRvDSRC3lKllO7qz2ZQsHrCnEbtLCAlLbcxHeg7_Z3aBt/embed?slide=id.g1ea4f8613e1_0_63
+
+Moviestack-Thiago-Videla
+
+Videos:
+
+TAILWIND: https://www.youtube.com/watch?v=0U8wJg5qdpc&t=3s
+DOM: https://www.youtube.com/watch?v=l5VWJIAbyUs
+HIGHER ORDER FUNCTIONS: https://www.youtube.com/watch?v=B-SLJ7REQkU
+
+
+EMAIL:
+
+From: Paula Davis
+To: You
+Subject: Getting started
+
+ 
+
+Hello!
+
+We’ve reviewed your exercises and think we’ve found the perfect spot for you. Moviestack has contacted us to create and design a site for them, the idea is to develop the app from scratch. It’s a movie review site.
+
+I’ll be including the wireframes for you to have a base on what the client wants. Feel free to choose your color palette, and make any design changes that will upgrade the app without losing content. I’ll also be including a sample of how the data is stored in its database. They asked us to include this data in the project to see a sample of it.
+
+For this first sprint we’ll need the home page and the movies page, you'll need to use JavaScript to show dynamically the information sent to us.
+
+Thanks,
+Paula Davis
+Team Leader at Web Code

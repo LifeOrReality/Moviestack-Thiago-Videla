@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resumando ando, tu pagina preferida de reseñas de peliculas</title>
+    <link rel="stylesheet" href="./assets/styles/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="shortcut icon" href="./assets/images/Moviestack_favicon.png" type="image/x-icon">
+</head>
+<body>
+<div class="flex flex-col min-h-screen">
+  <header>
+    <div class="bg-black flex flex-wrap md:flex-nowrap items-center justify-between px-6 py-4">
+      <div class="flex items-center gap-0">
+        <img src="./assets/images/Moviestack_favicon.png" class="h-12 w-auto" alt="iconoPrincipal">
+        <h1 class="text-2xl font-bold text-white">MOVIESTACK</h1>
+      </div>
+      <nav class="flex flex-wrap justify-center items-center gap-4 p-4 recuadro_nav">
+        <a href="index.html" class="text-white px-6 py-2">HOME</a>
+        <a href="#" class="text-white px-6 py-2 seleccionado">MOVIES</a>
+        <a href="#" class="text-white px-6 py-2 ">FAV</a>
+      </nav>
+    </div>
+    </header>
+
+    <main class="grow bg-black">    
+        <div>
+            <img src="./assets/images/banner.png" class="w-full h-[20vh] object-cover" alt="banner">
+        </div>
+        <div id="contenedor" class="tarjetas"></div>
+    </main>
+
+    <footer>
+        <div class="bg-black via-neutral-900 to-zinc-900 text-center p-6 flex flex-row justify-center w-full h-[15vh] ">
+            <p class="text-3xl font-bold text-white">MindHub - Cohort N</p>
+        </div>
+    </footer>
+    <script src="./assets/data/scripts/data moviestack.js"></script>
+    <script src="./assets/data/scripts/index.js"></script>
+</div>
+
+</body>-
+</html>
