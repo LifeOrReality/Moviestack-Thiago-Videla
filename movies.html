@@ -24,9 +24,20 @@
     </div>
     </header>
 
-    <main class="grow bg-black">    
+    <main class="grow bg-black ">    
         <div>
             <img src="./assets/images/banner.png" class="w-full h-[20vh] object-cover" alt="banner">
+        </div>
+        <div class="flex justify-center mt-6 ">
+          <div class="">
+            <input type="text" id="buscador" placeholder="Search for movie" class="w-full p-2 rounded-lg border border-gray-600 bg-zinc-800 text-white" />
+          </div>
+
+          <div class="">
+          <select id="filtroGenero" class="w-full p-2 rounded-lg border border-gray-600 bg-zinc-800 text-white">
+            <option value="">All genres</option>
+          </select>
+          </div>
         </div>
         <div id="contenedor" class="tarjetas"></div>
     </main>
@@ -36,8 +47,8 @@
             <p class="text-3xl font-bold text-white">MindHub - Cohort N</p>
         </div>
     </footer>
-    <script src="./assets/data/scripts/data moviestack.js"></script>
-    <script src="./assets/data/scripts/index.js"></script>
+    <script src="./assets/scripts/data moviestack.js"></script>
+    <script src="./assets/scripts/index.js"></script>
 </div>
 
 </body>-
